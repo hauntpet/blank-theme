@@ -1,0 +1,25 @@
+{
+    "name": "package/name",
+    "description": "A blank Haunt theme package.",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [],
+    "require": {
+        "php": "^8.0.2",
+        "hauntpet/theme": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Package\\Name\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Package\\Name\\ThemeServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
