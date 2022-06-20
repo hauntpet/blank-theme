@@ -18,6 +18,8 @@ class ThemeServiceProvider extends ServiceProvider
 
         Repository::add($key, [
             'title' => 'Theme Title'
+        ], [
+            // options
         ]);
 
         Repository::loadViews($key, __DIR__ . '/../views');
